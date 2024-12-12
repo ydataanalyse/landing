@@ -1,0 +1,20 @@
+/* button.css */
+
+/* General button styling */
+.button {
+  background-color: #007bff;    /* Blue background */
+  color: white;                 /* White text */
+  padding: 10px 20px;           /* Padding to make the button look good */
+  border: none;                 /* No border */
+  border-radius: 5px;           /* Rounded corners */
+  text-align: center;           /* Center the text inside the button */
+  cursor: pointer;              /* Pointer cursor on hover */
+  font-size: 16px;              /* Font size */
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  text-decoration: none;        /* No underline */
+}
+
+.button:hover {
+  background-color: #0056b3;    /* Darker blue on hover */
+}

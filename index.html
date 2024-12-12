@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components/button.css">
+  <style>
+    .survey {
+      text-align: center;
+      background-color: #ffffff;
+      padding: 2em;
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      margin: 2em auto;
+      max-width: 800px;
+    }
+    .survey h2 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+      color: #333333;
+    }
+    .survey p {
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+      color: #555555;
+    }
+    .survey .button {
+      display: inline-block;
+      margin: 1.5em auto 0;
+      text-decoration: none;
+      font-size: 1.2em;
+      padding: 0.8em 2em;
+      background-color: #007BFF;
+      color: #ffffff;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .survey .button:hover {
+      background-color: #0056b3;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <img src="images/hero-image.jpg" alt="Hero Image" class="hero-img">
+    <div class="hero-text">
+      <h1>Welcome to Startup World</h1>
+      <p>Innovating the future, one step at a time.</p>
+      <!-- Button linking to the contact section -->
+      <a href="#contact" class="button">Contact Us</a>
+    </div>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav class="menu">
+    <ul>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#team">Our Team</a></li>
+      <li><a href="#stores">Our Locations</a></li>
+      <li><a href="#contact">Contact</a></li> <!-- Added Contact link -->
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are a leading tech startup dedicated to creating innovative solutions for the modern world. Our team of passionate professionals works tirelessly to make a difference in various industries, from AI to cloud computing.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>Artificial Intelligence</h3>
+        <p>Developing cutting-edge AI systems to streamline processes.</p>
+      </div>
+      <div class="service-card">
+        <h3>Cloud Computing</h3>
+        <p>Providing scalable cloud solutions for businesses.</p>
+      </div>
+      <div class="service-card">
+        <h3>Consulting</h3>
+        <p>Helping businesses grow with our strategic consulting services.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Typeform Section -->
+  <section id="survey" class="survey">
+    <h2>We Value Your Opinion</h2>
+    <p>Take a few moments to share your feedback with us. It helps us grow and serve you better!</p>
+    <a href="https://m7npmnhcuhl.typeform.com/to/SmuzcDUk?utm_source=xxxxx" class="button" target="_blank">Start the Survey</a>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="team">
+    <h2>Our Team</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="images/avatar1.jpg" alt="Team Member 1">
+        <h3>Jade Lowe</h3>
+        <p>CEO & Founder</p>
+      </div>
+      <div class="team-member">
+        <img src="images/avatar2.jpg" alt="Team Member 2">
+        <h3>Eliot Smith</h3>
+        <p>CTO</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations Section -->
+  <section id="stores" class="stores">
+    <h2>Our Locations</h2>
+    <div class="store-grid">
+      <div class="store-card">
+        <img src="images/store1.jpg" alt="Our Headquarters">
+        <h3>Headquarters</h3>
+        <p>123 Innovation Street, Silicon Valley, CA</p>
+      </div>
+      <div class="store-card">
+        <img src="images/store2.jpg" alt="Our Retail Store">
+        <h3>Retail Store</h3>
+        <p>456 Startup Lane, New York, NY</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit" class="button">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Startup Inc. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
